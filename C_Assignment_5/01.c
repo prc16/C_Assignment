@@ -19,10 +19,12 @@ void main()
     getch();
 }
 
-/* Output :
-Enter the value of N : 5
-*
-**
-***
-****
-*****
+/*
+    Output :
+    Enter the value of N : 5
+    *
+    **
+    ***
+    ****
+    *****
+*/
