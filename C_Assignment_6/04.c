@@ -1,5 +1,5 @@
 /*
-    Program : Print the following pattern
+    Program : 
     Author  :
     Date    :
 */
