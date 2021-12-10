@@ -7,31 +7,31 @@
 #include <conio.h>
 void main()
 {
-    int a[5],i;
+    float a[5],sum=0, avg;
+    int i;
     clrscr();
     
     for(i=0;i<5;i++)
     {
         printf("Enter the value of a[%d] : ",i);
-        scanf("%d",&a[i]);
+        scanf("%f",&a[i]);
     }
+
     for(i=0;i<5;i++)
     {
-        printf("a[%d] = %d\n",i,a[i]);
+        sum += a[i];
     }
+    avg=sum/5;
+    printf("sum = %.2f avg = %.2f\n",sum,avg);
     getch();
 }
 
 /*----------------------------------------
 Output :
-Enter the value of a[0] : 5
-Enter the value of a[1] : 6
-Enter the value of a[2] : 7
-Enter the value of a[3] : 8
-Enter the value of a[4] : 9
-a[0] = 5
-a[1] = 6
-a[2] = 7
-a[3] = 8
-a[4] = 9
+Enter the value of a[0] : 1
+Enter the value of a[1] : 2
+Enter the value of a[2] : 3
+Enter the value of a[3] : 4
+Enter the value of a[4] : 5
+sum = 15.00 avg = 3.00
 ----------------------------------------*/ 
