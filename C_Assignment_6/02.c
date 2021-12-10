@@ -22,7 +22,7 @@ void main()
         sum += a[i];
     }
     avg=sum/5;
-    printf("sum = %.2f avg = %.2f\n",sum,avg);
+    printf("sum = %.2f\n avg = %.2f\n",sum,avg);
     getch();
 }
 
@@ -33,5 +33,6 @@ Enter the value of a[1] : 2
 Enter the value of a[2] : 3
 Enter the value of a[3] : 4
 Enter the value of a[4] : 5
-sum = 15.00 avg = 3.00
+sum = 15.00
+avg = 3.00
 ----------------------------------------*/ 
