@@ -1,17 +1,24 @@
 /*
     Program : Print the following pattern
-    Author  :
+    Autor   :
     Date    :
 */
+
 #include <stdio.h>
 #include <conio.h>
 void main()
 {
-    int n,i,j;
+    int n, i, j;
     clrscr();
     printf("Enter the value of N : ");
     scanf("%d",&n);
-    for(i=n;i>=1;i--)
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+            printf("*");
+        printf("\n");
+    }
+    for(i=n-1;i>=1;i--)
     {
         for(j=1;j<=i;j++)
             printf("*");
@@ -23,6 +30,10 @@ void main()
 /*----------------------------------------
 Output :
 Enter the value of N : 5
+*
+**
+***
+****
 *****
 ****
 ***
