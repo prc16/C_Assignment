@@ -8,6 +8,7 @@
 void main()
 {
     int n,i,j;
+    clrscr();
     printf("Enter the value of N : ");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
