@@ -8,7 +8,7 @@
 void main()
 {
     int n,i,j;
-    printf("Enter the calu of N : ");
+    printf("Enter the value of N : ");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
