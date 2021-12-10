@@ -18,7 +18,7 @@ void main()
             printf("*");
         printf("\n");
     }
-    for(i=n-1;i>=1;i--)
+    for(i=n;i>=1;i--)
     {
         for(j=1;j<=i;j++)
             printf("*");
@@ -34,6 +34,7 @@ Enter the value of N : 5
 **
 ***
 ****
+*****
 *****
 ****
 ***
