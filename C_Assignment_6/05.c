@@ -7,7 +7,7 @@
 #include <conio.h>
 void main()
 {
-    int a[100], i, Largest, Smallest, n;
+    int a[20], i, Largest, Smallest, n;
     clrscr();
     printf("Enter number of elements in an array : ");
     scanf("%d",&n);
