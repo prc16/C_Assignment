@@ -22,8 +22,7 @@ void main()
 
 /*----------------------------------------
 Output :
-Enter the value of N : 5
-*****
+Enter the value of N : 4
 ****
 ***
 **
