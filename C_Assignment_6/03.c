@@ -26,9 +26,9 @@ void main()
 
     for (i=0;i<n;i++)
         for (j=i+1;j<n;j++)
-            switch (Ascending)
+            switch (choice)
             {
-                case 0:
+                case Ascending:
                     if (a[j] < a[i])
                     {
                         temp = a[i];
@@ -55,13 +55,13 @@ void main()
 Output :
 Enter number of elements in an array : 5
 Enter the value of a[0] : 44
-Enter the value of a[1] : -55 
+Enter the value of a[1] : -55
 Enter the value of a[2] : 56
 Enter the value of a[3] : -6
 Enter the value of a[4] : 69
 Ascending  : 0
 Descending : 1
-Enter your choice : 1
+Enter your choice : 0
 a[0] : -55
 a[1] :  -6
 a[2] :  44
