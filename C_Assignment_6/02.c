@@ -1,5 +1,5 @@
 /*
-    Program : 
+    Program : Calculate sum and avrage of elements in an array
     Author  :
     Date    :
 */

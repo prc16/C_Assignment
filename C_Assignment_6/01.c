@@ -1,5 +1,5 @@
 /*
-    Program : 
+    Program : Initialize and print an array of 5 elements
     Author  :
     Date    :
 */
