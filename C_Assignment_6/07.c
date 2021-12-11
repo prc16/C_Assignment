@@ -1,5 +1,5 @@
 /*
-    Program : 
+    Program : Row sum and Column sum of a matrix
     Author  :
     Date    :
 */

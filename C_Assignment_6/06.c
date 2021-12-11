@@ -1,5 +1,5 @@
 /*
-    Program : 
+    Program : Initialize and print a 3x3 matrix
     Author  :
     Date    :
 */
