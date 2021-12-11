@@ -1,5 +1,5 @@
 /*
-    Program : 
+    Program : Search an element in an array of 10. (Linear Search)
     Author  :
     Date    :
 */
