@@ -1,5 +1,5 @@
 /*
-    Program : 
+    Program : Find the largest and the smallest element from an array
     Author  :
     Date    :
 */
@@ -10,7 +10,7 @@ void main()
     int a[100], i, Largest, Smallest, n;
     clrscr();
     printf("Enter number of elements in an array : ");
-    scanf("%d", &n);
+    scanf("%d",&n);
 
     for(i=0;i<n;i++)
     {
@@ -28,8 +28,8 @@ void main()
             Smallest = a[i];
     }
 
-
-    printf("Smallest = %d\nLargest = %d\n",Smallest,Largest);
+    printf("Smallest = %3d\n",Smallest);
+    printf("Largest  = %3d\n",Largest);
     getch();
 }
 
@@ -42,5 +42,5 @@ Enter the value of a[2] : 23
 Enter the value of a[3] : 0
 Enter the value of a[4] : -7
 Smallest = -7
-Largest = 23
+Largest  = 23
 ----------------------------------------*/ 
