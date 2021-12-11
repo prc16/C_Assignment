@@ -1,5 +1,5 @@
 /*
-    Program : Row sum and Column sum of a matrix
+    Program : Addition of two 3x3 matrices
     Author  :
     Date    :
 */
