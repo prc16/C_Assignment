@@ -3,11 +3,12 @@
     Author  :
     Date    :
 */
+
 #include <stdio.h>
 #include <conio.h>
 void main()
 {
-    int a[3][3], i, j,rSum[3]={0,0,0},cSum[3]={0,0,0};
+    int a[3][3], i, j, rSum[3]={0,0,0}, cSum[3]={0,0,0};
     clrscr();
 
     for(i=0;i<3;i++)
